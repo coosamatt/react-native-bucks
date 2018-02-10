@@ -1,0 +1,38 @@
+{
+  "name": "react-native-bucks",
+  "version": "1.0.0",
+  "description": "React Native Bucks & UI Toolkit",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/azertys/bucks-react.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "bootstrap"
+  ],
+  "scripts": {
+    "build": "rm -rf build; webpack"
+  },
+  "author": "EpicPxls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azertys/bucks-react/issues"
+  },
+  "homepage": "https://github.com/azertys/bucks-react#readme",
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "node": "^8.3.0",
+    "prop-types": "^15.5.8",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.48.4",
+    "react-native-side-menu": "^1.0.2",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-native-pathjs-charts": "https://github.com/capitalone/react-native-pathjs-charts",
+    "react-native-svg": "^5.4.2",
+    "react-native-vector-icons": "^4.4.0"
+  },
+  "devDependencies": {}
+}

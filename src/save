@@ -1,0 +1,61 @@
+import React from 'react';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
+// import { Button } from 'react-pocket';
+import Button from './src/buttons/Button'
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <ScrollView>
+        <View style={styles.hero}>
+          <Text style={styles.heading}>Button</Text>
+        </View>
+        <Button
+          buttonStyle={styles.button}
+          title="Button"
+        />
+        <Button
+          buttonStyle={styles.button}
+          title="Button"
+          secondary
+        />
+        <Button
+          buttonStyle={styles.button}
+          title="Button"
+          secondary2
+        />
+        <Button
+          buttonStyle={styles.button}
+          title="Button"
+          secondary3
+        />
+      </ScrollView>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  heading: {
+    color: 'white',
+    marginTop: 10,
+    fontSize: 22,
+  },
+  hero: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 40,
+    backgroundColor: '#fff',
+  },
+  titleContainer: {},
+  button: {
+    marginTop: 15,
+  },
+  title: {
+    textAlign: 'center',
+    color: '#5e6977'
+  },
+  socialRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  },
+});
